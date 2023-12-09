@@ -12,6 +12,7 @@ class NoteSerializer(serializers.ModelSerializer):
         )
         fields = (
             "id",
+            "file",
             "created_at",
             "created_by",
             "content"
